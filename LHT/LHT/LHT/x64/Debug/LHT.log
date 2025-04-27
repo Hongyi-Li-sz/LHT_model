@@ -1,0 +1,23 @@
+﻿  test_LHT.cpp
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\LHT.h(109,23): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\LHT.h(180,23): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\LHT.h(227,61): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\LHT.h(230,63): warning C4244: “=”: 从“_Ty”转换到“long”，可能丢失数据
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\LHT.h(230,63): warning C4244:         with
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\LHT.h(230,63): warning C4244:         [
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\LHT.h(230,63): warning C4244:             _Ty=double
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\LHT.h(230,63): warning C4244:         ]
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\LHT.h(284,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\LHT.h(294,49): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\LHT.h(337,53): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\LHT.h(422,49): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\LHT.h(458,53): warning C4267: “参数”: 从“size_t”转换到“uint8_t”，可能丢失数据
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\LHT.h(537,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\LHT.h(677,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\LHT.h(696,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\test_LHT.cpp(254,45): warning C4244: “=”: 从“unsigned __int64”转换到“double”，可能丢失数据
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\test_LHT.cpp(255,43): warning C4244: “=”: 从“unsigned __int64”转换到“double”，可能丢失数据
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\test_LHT.cpp(272,16): warning C4267: “=”: 从“size_t”转换到“long”，可能丢失数据
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\test_LHT.cpp(280,36): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\test_LHT.cpp(408,33): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+  LHT.vcxproj -> D:\cpp_code\new_LHTcode\niming\LHT\LHT\LHT\x64\Debug\LHT.exe
