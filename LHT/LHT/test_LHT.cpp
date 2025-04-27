@@ -283,7 +283,7 @@ int main(int argc, char* argv[])
 
 
     // Perform repeated experiments
-    const int numExperiments = 10;
+    const int numExperiments = 20;
     experiment_accuracies.clear();
 
     std::cout << "\nStarting " << numExperiments << " repeated experiments...\n";
@@ -352,7 +352,7 @@ double runSingleExperiment(int numberLF_trees, int randomSeed, char* projectName
     // Create and train trees
     initCentroidSampleNumbers(nSensors);
 
-    std::cout << "Creating array of " << numberLF_trees << " Learning Hyperplane Trees.\n";
+    std::cout << "Creating array of " << numberLF_trees/ class_num << " Learning Hyperplane Trees for each class\n";
     auto apLF_tree = (cLF_tree**)malloc(numberLF_trees * sizeof(cLF_tree*));
     auto start_first_tree = std::chrono::steady_clock::now();
     double tparallel = 0;
