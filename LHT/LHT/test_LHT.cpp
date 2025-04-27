@@ -371,8 +371,8 @@ double runSingleExperiment(int numberLF_trees, int randomSeed, char* projectName
             const auto elapsed0 = std::chrono::duration_cast<std::chrono::milliseconds>(finish_tree - start_tree);
             if (elapsed0.count() > tparallel) tparallel = (double)elapsed0.count();
             auto elapsed1 = std::chrono::duration_cast<std::chrono::milliseconds>(finish_tree - start_first_tree);
-            std::cout << "Growing tree " << treeNo << " took " << elapsed0.count() << " msec. Elapsed " << elapsed1.count() <<
-                " msec. To go (est.) " << ceil(elapsed1.count() * (numberLF_trees - treeNo - 1) / ((treeNo + 1) * 60.0)) << " msec." << std::endl;
+           // std::cout << "Growing tree " << treeNo << " took " << elapsed0.count() << " msec. Elapsed " << elapsed1.count() <<
+               // " msec. To go (est.) " << ceil(elapsed1.count() * (numberLF_trees - treeNo - 1) / ((treeNo + 1) * 60.0)) << " msec." << std::endl;
         }
     }
 
